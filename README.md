@@ -19,7 +19,7 @@ usage: autocheck_countee.py [-h] [--intervall INTERVALL] vaccination_center
 
 positional arguments:
   vaccination_center    The vaccination center name as displayed on countee.
-                        Example: "Dresden IZ").
+                        Example: "Dresden IZ".
 
 optional arguments:
   -h, --help            show this help message and exit
