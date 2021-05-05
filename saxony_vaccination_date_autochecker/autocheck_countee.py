@@ -163,7 +163,7 @@ class Autochecker():
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("vaccination_center", type=str,
-                        help="The vaccination center name as displayed on countee. Example: \"Dresden IZ\").")
+                        help="The vaccination center name as displayed on countee. Example: \"Dresden IZ\".")
     parser.add_argument("--intervall", type=int, default=10,
                         help="Check intervall in minutes (default: 10).")
     args = parser.parse_args()
