@@ -24,7 +24,7 @@ If you want to check other vaccination centers, you can just modify a .bat file 
 My Antivirus/Smart Screen complains, what should I do?
 ------------------------------------------------------
 
-No worries, these are false positives. The .exe is build using pyinstaller - those being suspected by Windows SmartScreen or antivirus solutions is a recurring issue (see for example https://github.com/pyinstaller/pyinstaller/issues/4852).
+No worries, these are false positives. The .exe is build using pyinstaller, which just bundles the script from this repository along with all dependencies including the python runtime into a single executable. Executables build by pyinstaller being suspected by Windows SmartScreen or antivirus solutions is a recurring issue (see for example https://github.com/pyinstaller/pyinstaller/issues/4852).
 
 If this happens:
 
