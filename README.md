@@ -4,6 +4,9 @@ This tool periodically checks free vaccination dates of vaccination centers in S
 
 This tool does NOT register you for a vaccination date. But you can let it run in the background and don't have to monitor the countee page by yourself all day.
 
+![image](https://user-images.githubusercontent.com/15156652/117510088-b9f3a700-af8b-11eb-84c4-11c531d17c4c.png)
+
+
 
 
 Installation (Standalone)
