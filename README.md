@@ -1,8 +1,8 @@
 Installation (Standalone)
 ------------------------
 
-1. Download the latest standalone release at
-2. Either run it via command line (see options below) or .bat
+1. Download the latest standalone release at https://github.com/Luux/saxony-vaccination-date-autochecker/releases
+2. Either run it via command line (see options at the bottom of this README) or by double-clicking on a .bat starter
 
 If you don't want to use the command line, you can use a .bat file to start the program.
 As examples, you can just double-click dresden.bat or leipzig.bat and you're ready to go (what the names mean should be self-explanatory).
