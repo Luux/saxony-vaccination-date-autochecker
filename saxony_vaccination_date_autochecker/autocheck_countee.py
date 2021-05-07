@@ -69,6 +69,8 @@ class Autochecker():
         ).get_text(separator=separator)
         details_formatted = self._format_date_details(details, separator)
 
+        session.close()
+
         return vaccination_freedates, details_formatted
 
     def _format_date_details(self, details, separator):
