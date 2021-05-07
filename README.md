@@ -15,6 +15,17 @@ My Antivirus/Smart Screen complains, what should I do?
 
 No worries, these are false positives. The .exe is build using pyinstaller - those being suspected by Windows SmartScreen or antivirus solutions is a recurring issue (see for example https://github.com/pyinstaller/pyinstaller/issues/4852).
 
+If this happens:
+![image](https://user-images.githubusercontent.com/15156652/117507377-389a1580-af87-11eb-885d-5a48d432eb9b.png)
+
+Right-click on autocheck_countee.exe -> Properties -> Allow -> OK
+
+![image](https://user-images.githubusercontent.com/15156652/117507747-c6760080-af87-11eb-9320-e388025f59d4.png)
+
+
+
+
+
 You can also just run it from source as written below.
 
 
