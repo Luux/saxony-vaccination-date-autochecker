@@ -6,10 +6,11 @@ Brought to you by Luux - https://luux.dev/
 ------------------------------------------
 """
 import argparse
-import win32api
 import datetime
 import threading
 import time
+import tkinter as tk
+from tkinter import messagebox
 from requests_html import HTMLSession
 from bs4 import BeautifulSoup
 
@@ -128,7 +129,9 @@ class Autochecker():
 
     def sleep(self):
         """Wait until the next check."""
-        time.sleep(self.intervall_minutes * 60)
+        intervall_seconds = self.intervall_minutes * 60
+        for _ in range(intervall_seconds):
+            time.sleep(1)
 
     def _alert_nonblocking(self, message, title):
         """Alert without blocking further checks until the message box is closed.
@@ -156,8 +159,20 @@ class Autochecker():
         title : str
             Message box title.
         """
-        win32api.MessageBox(
-            0, message, title)
+
+        # Tkinter needs a root, but it is empty
+        root = tk.Tk()
+
+        # Make sure message is displayed on top
+        root.attributes('-topmost', 1)
+
+        # We don't want to see the empty root
+        root.withdraw()
+
+        # Show the actual message
+        messagebox.showinfo(title=title, message=message)
+
+        root.destroy()
 
 
 if __name__ == "__main__":
