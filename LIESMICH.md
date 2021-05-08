@@ -16,8 +16,6 @@ Installation (Standalone)
 1. Ladet die neueste Version unter https://github.com/Luux/saxony-vaccination-date-autochecker/releases herunter.
 2. Startet das Programm durch einen Doppelklick auf eine der .bat-Starter-Dateien (z.B. dresden.bat für das Dresdner Impfzentrum).
 
-Wenn ihr andere Impfzentren prüfen wollt, könnt ihr einfach eine .bat-Datei bearbeiten (Rechtsklick -> Bearbeiten) und den Namen des gewünschten Impfzentrums angeben, wie er https://www.countee.ch/app/de/counter/impfee/_iz_sachsen zu sehen ist (zum Beispiel "Annaberg IZ").
-
 
 Mein Antivirus/SmartScreen meldet sich, was soll ich tun?
 -------------------------------------------------------------
