@@ -26,7 +26,9 @@ Sollte SmartScreen den Start blockieren:
 
 ![image](https://user-images.githubusercontent.com/15156652/117507377-389a1580-af87-11eb-885d-5a48d432eb9b.png)
 
-Rechtsklick auf autocheck_countee.exe -> Eigenschaften -> Zulassen -> OK
+Rechtsklick auf autocheck_countee.exe* -> Eigenschaften -> Zulassen -> OK
+
+* (dasselbe für die jeweilige bat, bspw. dresden.bat)
 
 ![image](https://user-images.githubusercontent.com/15156652/117507747-c6760080-af87-11eb-9320-e388025f59d4.png)
 
