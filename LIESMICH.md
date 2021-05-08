@@ -43,7 +43,7 @@ Installation (Source, für erfahrenere Nutzer)
 
 2. Sicherstellen, dass python in der PATH-Umgebungsvariable liegt
 
-3. ```pip install -r requirements.txt``
+3. ```pip install -r requirements.txt```
 
 4. Starten des Skripts. Beispiel für die Verwendung:
 ```python saxony_vaccination_date_autochecker/autocheck_countee-py "Dresden IZ"```
