@@ -33,10 +33,10 @@ Rechtsklick auf autocheck_countee.exe -> Eigenschaften -> Zulassen -> OK
 ![image](https://user-images.githubusercontent.com/15156652/117507747-c6760080-af87-11eb-9320-e388025f59d4.png)
 
 
-Alternativ kann das python-Skript auch direkt gestartet werden (für erfahrenere Nutzer).
+Alternativ kann das python-Skript auch direkt gestartet werden (s. u.).
 
 
-Installation (Quelle)
+Installation (Source, für erfahrenere Nutzer)
 ---------------------
 
 1. Python installieren: https://www.python.org/
