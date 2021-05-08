@@ -13,7 +13,7 @@ Dieses Tool registriert euch NICHT für einen Impftermin. Allerdings könnt ihr 
 Installation (Standalone)
 ------------------------
 
-1. Ladet die neueste Version unter https://github.com/Luux/saxony-vaccination-date-autochecker/releases herunter.
+1. Ladet die neueste Version unter https://github.com/Luux/saxony-vaccination-date-autochecker/releases herunter (saxony-vaccination-date-autochecker.zip).
 2. Startet das Programm durch einen Doppelklick auf eine der .bat-Starter-Dateien (z.B. dresden.bat für das Dresdner Impfzentrum).
 
 
