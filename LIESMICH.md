@@ -1,4 +1,4 @@
-# Sachsen-Impftermin-Autochecker
+# Impftermin-Autochecker für Sachsen
 
 Dieses Tool prüft regelmäßig freie Impftermine von Impfzentren in Sachsen, indem es auf die unter https://www.countee.ch/app/de/counter/impfee/_iz_sachsen verfügbaren Live-Counter zugreift.
 Sobald mehr Impftermine verfügbar sind als bei der letzten Überprüfung, erhaltet ihr eine Benachrichtigung.
