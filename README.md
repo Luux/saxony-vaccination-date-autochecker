@@ -37,9 +37,9 @@ If this happens:
 
 ![image](https://user-images.githubusercontent.com/15156652/117507377-389a1580-af87-11eb-885d-5a48d432eb9b.png)
 
-Right-click on autocheck_countee.exe -> Properties -> Allow -> OK
+Right-click on the .bat of choice -> Properties -> Allow -> OK
 
-![image](https://user-images.githubusercontent.com/15156652/117507747-c6760080-af87-11eb-9320-e388025f59d4.png)
+![image](https://user-images.githubusercontent.com/15156652/117539365-9ae82a00-b00a-11eb-9f2e-24b8fdad8e7b.png)
 
 
 
