@@ -1,4 +1,11 @@
 # Saxony Vaccination Date Autochecker
+-------------------------------------
+
+**Deutsche Anleitung:** https://github.com/Luux/saxony-vaccination-date-autochecker/blob/master/LIESMICH.md
+-----------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+
+
 
 This tool periodically checks free vaccination dates of vaccination centers in Saxony by accessing the information available at https://www.countee.ch/app/de/counter/impfee/_iz_sachsen. If there are more vaccination dates available than at the last time checked, you'll get a notification.
 
