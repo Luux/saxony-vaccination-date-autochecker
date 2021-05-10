@@ -62,4 +62,6 @@ optionale Argumente:
   -h, --help Hilfe anzeigen
   --intervall INTERVALL
                         Prüfintervall in Minuten (Voreinstellung: 10).
+  --wait WAIT
+                        Wartezeit beim Laden der Countee-Seite in Sekunden (Voreinstellung: 5).
 ```
