@@ -61,6 +61,11 @@ class Autochecker():
 
         vaccination_center_element = soup.find(
             "h1", text=self.vaccination_center)
+        if vaccination_center_element is None:
+            raise AttributeError(
+                "Etwas ist beim Laden der countee-Seite schiefgegangen. :(\n"
+                "Bitte kontaktiere den Autor. Empfangene Informationen:\n"
+                + page.html.html)
         vaccination_freedates_element = vaccination_center_element.parent.parent.find(
             "div", class_="style__val___XaOLg")
         vaccination_freedates = int(vaccination_freedates_element.text)
