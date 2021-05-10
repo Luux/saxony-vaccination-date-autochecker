@@ -20,7 +20,7 @@ countee_saxony = "https://www.countee.ch/app/de/counter/impfee/_iz_sachsen"
 class Autochecker():
     """Autochecker class."""
 
-    def __init__(self, intervall_minutes, vaccination_center, countee_url):
+    def __init__(self, intervall_minutes, vaccination_center, countee_url, waiting_time):
         """Initialize the autochecker.
 
         Parameters
@@ -31,11 +31,14 @@ class Autochecker():
             Vaccination center name as displayed on countee.
         countee_url : str
             URL to countee counter.
+        waiting_time: int
+            Waiting time in seconds for the countee page to load.
         """
         self.intervall_minutes = intervall_minutes
         self.vaccination_center = vaccination_center
         self.countee_url = countee_url
         self.freedates_when_last_checked = 0
+        self.waiting_time = waiting_time
 
     def check_countee(self):
         """Simple countee check.
@@ -53,7 +56,7 @@ class Autochecker():
 
         session = HTMLSession(mock_browser=False)
         page = session.get(self.countee_url)
-        page.html.render(sleep=1)
+        page.html.render(sleep=self.waiting_time)
         soup = BeautifulSoup(page.html.html, features="lxml")
 
         vaccination_center_element = soup.find(
@@ -183,9 +186,11 @@ if __name__ == "__main__":
                         help="The vaccination center name as displayed on countee. Example: \"Dresden IZ\".")
     parser.add_argument("--intervall", type=int, default=10,
                         help="Check intervall in minutes (default: 10).")
+    parser.add_argument("--wait", type=int, default=5,
+                        help="Waiting time in seconds for the countee page to load (default: 5).")
     args = parser.parse_args()
     autochecker = Autochecker(
-        args.intervall, args.vaccination_center, countee_saxony)
+        args.intervall, args.vaccination_center, countee_saxony, args.wait)
 
     autochecker.check_and_alert(initial=True)
     autochecker.sleep()
