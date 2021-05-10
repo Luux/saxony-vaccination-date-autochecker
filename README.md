@@ -64,9 +64,8 @@ Installation (Source)
 Options:
 
 ```
-python .\saxony_vaccination_date_autochecker\autocheck_countee.py --help
-usage: autocheck_countee.py [-h] [--intervall INTERVALL] vaccination_center
-
+usage: autocheck_countee.exe [-h] [--intervall INTERVALL] [--wait WAIT]
+                             vaccination_center
 positional arguments:
   vaccination_center    The vaccination center name as displayed on countee.
                         Example: "Dresden IZ".
@@ -75,4 +74,6 @@ optional arguments:
   -h, --help            show this help message and exit
   --intervall INTERVALL
                         Check intervall in minutes (default: 10).
+  --wait WAIT           Waiting time in seconds for the countee page to load
+                        (default: 5).
 ```
