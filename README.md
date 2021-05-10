@@ -58,7 +58,7 @@ Installation (Source)
 3. ```pip install -r requirements.txt```
 
 4. Start the script. Example usage:
-```python saxony_vaccination_date_autochecker/autocheck_countee-py "Dresden IZ"```
+```python saxony_vaccination_date_autochecker/autocheck_countee.py "Dresden IZ"```
 
 
 Options:
